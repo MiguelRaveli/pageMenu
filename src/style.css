@@ -10,6 +10,90 @@ body {
   font-style: italic;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  padding: 10px;
+}
+.containerBtns {
+  width: 30%;
+  height: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  width: calc(100% / 4 - 10px);
+  height: 100%;
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80%;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.products-article {
+  height: 30%;
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 100%;
+  width: 40%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid gold ;
+  border-style: double;
+  border-radius: 10px;
+}
+
+.info {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+}
+.info h1 {
+  height: 30%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2em;
+  border-bottom: 1px solid black;
+}
+
+.info h1 span{
+  color: rgb(255, 217, 0)
+}
+
+.info p {
+  height: 70%;
+  padding: 10px;
+}
+
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 }
